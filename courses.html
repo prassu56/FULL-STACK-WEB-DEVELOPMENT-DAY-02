@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Engineering College Website</title>
+    <title>Courses - Engineering College</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -52,14 +52,15 @@
             margin: 30px auto;
             padding: 0 20px;
         }
-        section {
-            margin-bottom: 50px;
-        }
         section h2 {
             border-bottom: 3px solid #4a148c;
             padding-bottom: 10px;
             margin-bottom: 20px;
             color: #4a148c;
+        }
+        .courses-list {
+            list-style-type: square;
+            padding-left: 20px;
         }
         footer {
             background-color: #4a148c;
@@ -70,46 +71,6 @@
             bottom: 0;
             width: 100%;
         }
-        .contact-info {
-            line-height: 1.6;
-        }
-        .courses-list {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        .admissions p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        .contact-form {
-            max-width: 400px;
-            margin-top: 20px;
-        }
-        .contact-form label {
-            display: block;
-            margin-bottom: 6px;
-            font-weight: bold;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        .contact-form button {
-            background-color: #4a148c;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #6a1b9a;
-        }
     </style>
 </head>
 <body>
@@ -117,7 +78,7 @@
         <img src="mtieatlogo.jpg" alt="College Logo" />
         <h1>Mother Teresa Institute Of Engineering and Technology</h1>
     </header>
-<nav>
+    <nav>
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
         <a href="courses.html">Courses</a>
@@ -125,6 +86,17 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
+        <section>
+            <h2>Courses Offered</h2>
+            <ul class="courses-list">
+                <li>Bachelor of Technology (B.Tech) in Computer Science Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Electronics and Communication Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Mechanical Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Civil Engineering</li>
+                <li>Master of Technology (M.Tech) in various specializations</li>
+            </ul>
+        </section>
+    </main>
     <footer>
         &copy; 2024 Mother Teresa Institute Of Engineering and Technology. All rights reserved.
     </footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Engineering College Website</title>
+    <title>Contact - Engineering College</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -52,34 +52,14 @@
             margin: 30px auto;
             padding: 0 20px;
         }
-        section {
-            margin-bottom: 50px;
-        }
         section h2 {
             border-bottom: 3px solid #4a148c;
             padding-bottom: 10px;
             margin-bottom: 20px;
             color: #4a148c;
         }
-        footer {
-            background-color: #4a148c;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
         .contact-info {
             line-height: 1.6;
-        }
-        .courses-list {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        .admissions p {
-            font-size: 16px;
-            line-height: 1.5;
         }
         .contact-form {
             max-width: 400px;
@@ -110,6 +90,15 @@
         .contact-form button:hover {
             background-color: #6a1b9a;
         }
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -117,7 +106,7 @@
         <img src="mtieatlogo.jpg" alt="College Logo" />
         <h1>Mother Teresa Institute Of Engineering and Technology</h1>
     </header>
-<nav>
+    <nav>
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
         <a href="courses.html">Courses</a>
@@ -125,6 +114,26 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Phone: 7396809696</p>
+                <p>Email: info@mtieat.edu.in</p>
+                <p>Address: 123 College Road, City, State, ZIP</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         &copy; 2024 Mother Teresa Institute Of Engineering and Technology. All rights reserved.
     </footer>
