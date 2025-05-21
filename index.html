@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Engineering College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4a148c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header img {
+            height: 60px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline;
+            margin-left: 15px;
+            font-size: 28px;
+            vertical-align: middle;
+        }
+        nav {
+            background-color: #6a1b9a;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: inline-block;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #4a148c;
+        }
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        section h2 {
+            border-bottom: 3px solid #4a148c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #4a148c;
+        }
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            line-height: 1.6;
+        }
+        .courses-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .admissions p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .contact-form button {
+            background-color: #4a148c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="mtieatlogo.jpg" alt="College Logo" />
+        <h1>Mother Teresa Institute Of Engineering and Technology</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Engineering College</h2>
+            <p>Welcome to Mother Teresa Institute Of Engineering and Technology, a premier institution dedicated to excellence in engineering education and research. Our mission is to empower students with knowledge, skills, and values to become leaders in their fields.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Established in 2000, our college has been committed to providing quality education and fostering innovation. We have a team of experienced faculty members and state-of-the-art facilities to support student learning and development.</p>
+        </section>
+        <section id="courses">
+            <h2>Courses Offered</h2>
+            <ul class="courses-list">
+                <li>Bachelor of Technology (B.Tech) in Computer Science Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Electronics and Communication Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Mechanical Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Civil Engineering</li>
+                <li>Master of Technology (M.Tech) in various specializations</li>
+            </ul>
+        </section>
+        <section id="admissions" class="admissions">
+            <h2>Admissions</h2>
+            <p>Admissions for the academic year 2024-2025 are now open. Interested candidates can apply online or visit our campus for more information. The admission process includes entrance exams, counseling, and document verification.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Phone: 7396809696</p>
+                <p>Email: info@mtieat.edu.in</p>
+                <p>Address: 123 College Road, City, State, ZIP</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Mother Teresa Institute Of Engineering and Technology. All rights reserved.
+    </footer>
+</body>
+</html>
